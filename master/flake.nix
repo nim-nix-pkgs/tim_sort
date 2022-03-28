@@ -11,7 +11,6 @@
   inputs.src-tim_sort-master.ref   = "refs/heads/master";
   inputs.src-tim_sort-master.owner = "bung87";
   inputs.src-tim_sort-master.repo  = "tim_sort";
-  inputs.src-tim_sort-master.dir   = "";
   inputs.src-tim_sort-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
